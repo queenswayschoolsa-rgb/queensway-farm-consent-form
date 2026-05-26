@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Queensway Early Years - Farm Visit Consent Form</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/signature_pad@4.0.0/dist/signature_pad.umd.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="logo-section">
+    <img src="logo.png" alt="Queensway Early Years Logo" class="logo">
+    <h1>Farm Visit Consent Form</h1>
+    <p class="subtitle">Queensway Early Years</p>
+  </div>
+
+  <form
+    action="https://formspree.io/f/YOUR_FORM_ID"
+    method="POST"
+    enctype="multipart/form-data"
+  >
+
+    <div class="section-title">Parent Information</div>
+
+    <div class="grid">
+      <div>
+        <label>Parent First Name</label>
+        <input type="text" name="parent_first_name" required>
+      </div>
+
+      <div>
+        <label>Parent Last Name</label>
+        <input type="text" name="parent_last_name" required>
+      </div>
+    </div>
+
+    <button type="submit">Continue</button>
+
+  </form>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
