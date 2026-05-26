@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: white;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+}
+
+.logo-section {
+  text-align: center;
+}
+
+.logo {
+  max-width: 220px;
+}
+
+h1 {
+  color: #0b4f2f;
+}
+
+.subtitle {
+  color: #c9a227;
+}
